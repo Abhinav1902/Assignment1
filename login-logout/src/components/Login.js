@@ -16,7 +16,6 @@ const navigate = useNavigate();
         username,
         password,
       });
-
       const user = response.data;
       dispatch(login(user));
       navigate('/logout');
